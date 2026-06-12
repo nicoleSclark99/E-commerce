@@ -146,9 +146,11 @@ li{
     color:white;
 }
 
+
 /*
 
-LANDING
+    LANDING
+
 
 */
 
@@ -236,7 +238,9 @@ button:active{
 
 /*
 
-HIGHLIGHTS
+
+    HIGHLIGHTS
+
 
 */
 
@@ -314,7 +318,9 @@ h3{
 
 /*
 
-FEATURES
+
+    FEATURES
+
 
 */
 
@@ -374,7 +380,9 @@ FEATURES
 
 /*
 
-EXPLORE
+
+    EXPLORE
+
 
 */
 
@@ -385,7 +393,9 @@ EXPLORE
 
 /*
 
-FOOTER
+
+    FOOTER
+
 
 */
 
@@ -419,7 +429,26 @@ footer{
     padding: 16px;
 }
 
-/* TABLETS */
+/*
+
+    BOOKS PAGE
+
+*/
+
+.books__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+/* 
+
+    TABLETS 
+    
+*/
+
+
 @media (max-width: 768px){
     .header__description{
         padding: 0 24px;
@@ -442,7 +471,13 @@ footer{
     }
 }
 
-/* SMALL PHONES, LARGE SMARTPHONES*/
+/* 
+
+    SMALL PHONES, LARGE SMARTPHONES
+    
+*/
+
+
 @media (max-width: 550px){
     .nav__links{
         display:none;
